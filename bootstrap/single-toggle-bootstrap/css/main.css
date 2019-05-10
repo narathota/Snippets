@@ -1,0 +1,38 @@
+.btn.active {                
+	display: none;		
+}
+
+.btn span:nth-of-type(1)  {            	
+	display: none;
+}
+.btn span:last-child  {            	
+	display: block;		
+}
+
+.btn.active  span:nth-of-type(1)  {            	
+	display: block;		
+}
+.btn.active span:last-child  {            	
+	display: none;			
+}
+
+.cbtn-act {
+    width:25px; 
+    height: 25px;
+    border-radius: 4px !important; 
+    background-color: #FD4E66;
+    padding: 2px 1px 0 0 !important;
+}
+
+.cbtn-deact {
+    width:25px; 
+    height: 25px;
+    border-radius: 4px !important; 
+    background-color: #FFFFFF;
+    padding: 2px 1px 0 0 !important;
+}
+
+.chkbx {
+    width: 15px;
+    height: 15px;
+}
